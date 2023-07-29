@@ -1,0 +1,31 @@
+body,
+html {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  color: green;
+}
+
+.Nav-bar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#website-name {
+  margin-right: 50%;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: contents;
+}

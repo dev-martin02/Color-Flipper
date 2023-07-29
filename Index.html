@@ -4,19 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Color Flipper</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <nav>
+    <nav class="Nav-bar">
       <p id="website-name">D'Martin Colores</p>
-      <a href="#simple">Simple mode</a>
-      <a href="#hex">Hex mode</a>
+      <div class="links">
+        <a href="#simple" id="simple-mode">Simple mode</a>
+        <a active="true" href="#hex" id="hex-mode-link">Hex mode</a>
+      </div>
     </nav>
     <main>
-      <section id="simple">
+      <section class="simple">
         <div class="Big-text">The name of this color is Blue</div>
         <button class="Color-changer">Change color</button>
       </section>
-      <section id="hex">
+      <section class="hex hide">
         <div class="Big-text">The name of this color is Green</div>
         <button class="Color-changer">Change color</button>
       </section>
